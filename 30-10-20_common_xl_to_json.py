@@ -78,3 +78,4 @@ for folder in jsonFolders:
 			json.dump(trans_json, single_json)
 
 # I have a xl file that contains three rows eng, fr, de. I have also a translation folder including many folders. In every folder, it contains a en.json. From this en.json i will pick a line that has a KEY and Value. I will compare with every lines in eng row. If i found same eng line, i will pick the de/fr value from the sheet and will put in my targated json file. Firstly, i make a copy of en.json and gradually updating the json.
+# CAUSION: Any object name same as its child is prohibited.
